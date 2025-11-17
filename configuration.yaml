@@ -1,0 +1,12 @@
+input_voice: "data/raw/journee_type.mp3"
+background_noise: "data/raw/train.aiff"
+
+output_dir: "data/processed"
+output_filename: "eleonore_train"
+
+# volume du bruit de train (négatif, plus discret)
+noise_level_db: -5
+
+output_formats:
+  - "wav"
+  - "mp3"
