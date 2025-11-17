@@ -4,9 +4,20 @@ background_noise: "data/raw/train.aiff"
 output_dir: "data/processed"
 output_filename: "eleonore_train"
 
-# volume du bruit de train (négatif, plus discret)
+#Volume du bruit de train en dB (bruit plus faible)
 noise_level_db: -5
 
 output_formats:
-  - "wav"
   - "mp3"
+
+audio:
+  input: "data/processed/eleonore_train.mp3"
+  output: "data/processed/eleonore_train_processed.mp3"
+  format: "mp3"
+
+#details effets
+effects:
+  volume: 1.5
+  fade_in: 2000
+  fade_out: 3000
+  speed: 1.2
