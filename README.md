@@ -2,7 +2,7 @@
 
 ## **1. Contexte du projet**
 
-Ce projet a été réalisé dans le cadre d’un brief ayant pour objectif  de **c****onstruire un système de traitement de données audio reproductible et traçable** ,comme on le ferait pour de la donnée texte ou tabulaire.
+Ce projet a été réalisé dans le cadre d’un brief ayant pour objectif  de **construire un système de traitement de données audio reproductible et traçable** ,comme on le ferait pour de la donnée texte ou tabulaire.
 
 L’entreprise souhaite exploiter ses archives audio afin de développer une  **solution conversationnelle interne** .
 
